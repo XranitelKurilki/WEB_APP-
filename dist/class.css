@@ -1,0 +1,60 @@
+h2 {
+  margin: 0;
+}
+
+#class-header {
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.rasp {
+  height: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.rasp.active {
+  height: 100%;
+}
+
+#class-container {
+  margin: 0 auto;
+}
+#class-container .bubble {
+  user-select: none;
+  overflow: hidden;
+  transition: 0.2s;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+#class-container.active .bubble:not(.active) {
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  text-align: center;
+}
+table th {
+  font-weight: bold;
+  border-bottom: #ccc solid 2px;
+}
+table tbody {
+  font-size: small;
+}
+table tr {
+  height: 2lh;
+}
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table td:nth-child(3) {
+  text-align: start;
+}
+
+/*# sourceMappingURL=class.css.map */

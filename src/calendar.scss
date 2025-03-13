@@ -1,0 +1,16 @@
+main {
+	overflow-y: scroll;
+}
+#calendar div {
+	text-align: start;
+}
+.bubble.event {
+	background-color: #ddd;
+	.date {
+		padding: 0 2px;
+		border-bottom: solid deepskyblue 2px;
+	}
+	.name {
+		margin: 2px 0;
+	}
+}

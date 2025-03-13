@@ -1,0 +1,18 @@
+.bubble.class {
+	display: inline;
+	min-width: 36px;
+	aspect-ratio: 2;
+	margin: 2% auto;
+	padding: 8px;
+	flex: 0;
+
+	color: initial;
+	text-decoration: none;
+	background-color: #ccc;
+}
+
+#class-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
